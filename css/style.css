@@ -1,0 +1,137 @@
+@media (min-width: 992px){
+  #leftsidebar {
+      position: fixed;
+      top: 20px;
+      bottom: 0;
+  }
+}
+
+.background{
+  align-items: center!important;
+  max-width:1600px;
+  background: #eee;
+}
+
+#leftbar{
+  padding:0;
+}
+
+#middlebar{
+  padding-left:25px;
+}
+
+.row{
+  margin:auto;
+}
+.wip{
+  margin:20px;
+}
+
+.title {
+  font-size: 12pt;
+  font-weight: 400;
+  clear: left;
+}
+.paper{
+  margin-bottom:20px;
+  margin-top:10px;
+  margin-left:20px;
+}
+
+.section{
+  margin-top:20px;
+  margin-bottom:50px;
+}
+
+.subsection{
+  margin-left:20px !important;
+  margin-bottom:30px;
+}
+
+.about{
+  margin-left:20px;
+  margin-right:20px;
+  font-size:12pt;
+}
+
+emph{
+  font-weight:500;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+h1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:30px;
+}
+
+h3{
+  margin-bottom:20px;
+  font-size:30px;
+}
+h4{
+  font-weight:300;
+  color: #666666;
+}
+
+award{
+  color: #ffa600e0;
+}
+
+
+/* Break up into pages/sections. Style taken from
+https://github.com/delight-im/HTML-Sheets-of-Paper */
+.page {
+  /* Styles for better appearance on screens only -- are reset to defaults in print styles later */
+
+  /* Divide single pages with some space and center all pages horizontally */
+  /*margin: 10em auto; */
+  /* Define a white paper background that sticks out from the darker overall background */
+  background: #fff;
+  /* Show a drop shadow beneath each page */
+  box-shadow: 0 4px 5px rgba(75, 75, 75, 0.2);
+
+  /* More specific settings. */
+  text-align: left;
+  width: 900px;
+  max-width: 90%;
+  margin: 1em auto 1em auto;
+  padding: 1em 2em 1em 2em;
+}
+
+.page img {
+  /*float: left; */
+  width: auto;
+  max-width: 100%;
+  min-width: 100px;
+  overflow: hidden;
+}
+
+/* Project tag. */
+.project
+{
+    clear: both;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.project-left
+{
+    clear: both;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.project-left img
+{
+    float: left;
+    /* TRBL */
+    margin: 5px 20px 5px 5px;
+    max-width: 30%;
+    min-width: 150px;
+}
+
+
+#cv{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
